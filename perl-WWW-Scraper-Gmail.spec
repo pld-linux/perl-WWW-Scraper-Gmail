@@ -24,7 +24,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Logs into email through https, does some stuff and gets back a list of
+Logs into email through HTTPS, does some stuff and gets back a list of
 inbox items. Uses ~/.gmailrc for now for username and password. The
 format is as follows
 [gmail]
@@ -35,7 +35,7 @@ you'd do well to chmod it 700.
 Doesn't do error checking for log in problems.
 
 %description -l pl
-Za po¶rednictwem https loguje siê do konta gmail, wykonuje pewne
+Za po¶rednictwem HTTPS loguje siê do konta Gmail, wykonuje pewne
 operacje i zwraca listê elementów w skrzynce odbiorczej. Login oraz
 has³o zapisane s± w pliku ~/.gmailrc, którego format jest nastêpuj±cy:
 [gmail]
