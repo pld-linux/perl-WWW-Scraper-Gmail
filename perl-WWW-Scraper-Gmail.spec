@@ -18,14 +18,15 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Crypt::SSLeay)
+BuildRequires:	perl-Crypt-SSLeay
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Logs into email through https, does some stuff and gets back a list of inbox items.
-Uses ~/.gmailrc for now for username and password. The format is as follows
+Logs into email through https, does some stuff and gets back a list of
+inbox items. Uses ~/.gmailrc for now for username and password. The
+format is as follows
 [gmail]
 username=<username>
 password=<password>
