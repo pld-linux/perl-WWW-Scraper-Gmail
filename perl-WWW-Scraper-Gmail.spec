@@ -6,7 +6,7 @@
 %define		pdir	WWW
 %define		pnam	Scraper-Gmail
 Summary:	WWW::Scraper::Gmail - Perl extension for loging in and reading Gmail Mailbox information.
-Summary(pl):	WWW::Scraper::GMail - rozszerzenie Perla do obs³ugi konta Gmail (logowanie i odczyt informacji).
+Summary(pl.UTF-8):   WWW::Scraper::GMail - rozszerzenie Perla do obsÅ‚ugi konta Gmail (logowanie i odczyt informacji).
 Name:		perl-WWW-Scraper-Gmail
 Version:	0.09
 Release:	1
@@ -34,16 +34,16 @@ password=<password>
 you'd do well to chmod it 700.
 Doesn't do error checking for log in problems.
 
-%description -l pl
-Za po¶rednictwem HTTPS loguje siê do konta Gmail, wykonuje pewne
-operacje i zwraca listê elementów w skrzynce odbiorczej. Login oraz
-has³o zapisane s± w pliku ~/.gmailrc, którego format jest nastêpuj±cy:
+%description -l pl.UTF-8
+Za poÅ›rednictwem HTTPS loguje siÄ™ do konta Gmail, wykonuje pewne
+operacje i zwraca listÄ™ elementÃ³w w skrzynce odbiorczej. Login oraz
+hasÅ‚o zapisane sÄ… w pliku ~/.gmailrc, ktÃ³rego format jest nastÄ™pujÄ…cy:
 [gmail]
 username=<login>
 password=<haslo>
 
-warto zmieniæ uprawnienia pliku na 700.
-Nie nastêpuje sprawdzanie b³êdów w poszukiwaniu problemów z
+warto zmieniÄ‡ uprawnienia pliku na 700.
+Nie nastÄ™puje sprawdzanie bÅ‚Ä™dÃ³w w poszukiwaniu problemÃ³w z
 logowaniem.
 
 %prep
