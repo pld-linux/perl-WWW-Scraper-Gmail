@@ -6,7 +6,7 @@
 %define		pdir	WWW
 %define		pnam	Scraper-Gmail
 Summary:	WWW::Scraper::Gmail - Perl extension for loging in and reading Gmail Mailbox information.
-Summary(pl.UTF-8):   WWW::Scraper::GMail - rozszerzenie Perla do obsługi konta Gmail (logowanie i odczyt informacji).
+Summary(pl.UTF-8):	WWW::Scraper::GMail - rozszerzenie Perla do obsługi konta Gmail (logowanie i odczyt informacji).
 Name:		perl-WWW-Scraper-Gmail
 Version:	0.09
 Release:	1
