@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	WWW
 %define		pnam	Scraper-Gmail
-Summary:	WWW::Scraper::Gmail - Perl extension for loging in and reading Gmail Mailbox information.
+Summary:	WWW::Scraper::Gmail - Perl extension for loging in and reading Gmail Mailbox information
 Summary(pl.UTF-8):	WWW::Scraper::GMail - rozszerzenie Perla do obsługi konta Gmail (logowanie i odczyt informacji).
 Name:		perl-WWW-Scraper-Gmail
 Version:	0.09
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -68,5 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/WWW/Scraper
 %{perl_vendorlib}/WWW/Scraper/*.pm
 %{_mandir}/man3/*
