@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	WWW
 %define		pnam	Scraper-Gmail
 Summary:	WWW::Scraper::Gmail - Perl extension for loging in and reading Gmail Mailbox information
